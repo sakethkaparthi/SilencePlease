@@ -20,7 +20,7 @@ import java.util.List;
 public class DatabaseHelper extends Activity {
     private ArrayAdapter<String> mForecastAdapter;
     SQLiteDatabase mydb;
-    private static String DBNAME = "PERSONS.db";    // THIS IS THE SQLITE DATABASE FILE NAME.
+    private static String DBNAME = "LOCATIONS.db";    // THIS IS THE SQLITE DATABASE FILE NAME.
     private static String TABLE = "MY_TABLE";       // THIS IS THE TABLE NAME
     static String k = "MAX";
     static String l = "lel";
